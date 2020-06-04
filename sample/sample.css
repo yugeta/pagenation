@@ -1,0 +1,38 @@
+html,body{
+  width   : 100%;
+  height  : 100%;
+  margin  : 0;
+  padding : 0;
+  border  : 0;
+}
+*, *:before, *:after {
+  -webkit-box-sizing : border-box;
+     -moz-box-sizing : border-box;
+       -o-box-sizing : border-box;
+      -ms-box-sizing : border-box;
+          box-sizing : border-box;
+}
+
+.lists-area{
+  width:100%;
+  padding:10px;
+}
+.lists-area .lists{
+  width:100%;
+}
+
+ul,li{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.lists-area .lists li{
+  border:1px solid #ccc;
+  padding:10px;
+  margin : 4px;
+  cursor:pointer;
+}
+.lists-area .lists li:hover{
+  background-color:#eee;
+}
